@@ -116,6 +116,20 @@
     --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* Nurture earthy palette (sampled from brand reference) */
+:root {
+    --cream: #f4ece1;
+    --cream-soft: #faf5ec;
+    --clay-100: #ecdfce;
+    --clay-200: #e2cfb8;
+    --clay-300: #d3b393;
+    --clay-600: #b07a4f;
+    --clay-700: #95603a;
+    --clay-800: #6f4527;
+    --clay-900: #4a2f1d;
+    --sage: #b9c2a4;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
